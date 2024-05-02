@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medicare</title>
+  </head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins:wght@100;200;300;400;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="img/icon 2.png" />
+
+  <body>
+    <nav class="navbar">
+      <a href="#"><img class="logo" src="img/icon 2.png" alt="Medicare" /></a>
+
+      <div class="navbar-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+
+          <li class="dropdown">
+            <a href="#products">Products</a>
+            <ul class="dropdown-menu">
+              <li><a href="#healthcare">Healthcare</a></li>
+              <li><a href="#cosmetic">Cosmetic</a></li>
+              <li><a href="#misc.">Misc.</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#aboutUs">About Us</a></li>
+          <li><a href="id/register.html">Register</a></li>
+
+          <li><a class="login" href="id/login.html">Login</a></li>
+        </ul>
+      </div>
+
+      <button class="hamburger">&#9776;</button>
+    </nav>
+
+    <div class="hamburgerList">
+      <ul class="lists">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li class="hamburger-products">
+          <a href="#products">Products</a>
+          <ul class="products-list">
+            <li><a href="#healthcare">Healthcare</a></li>
+            <li><a href="#cosmetic">Cosmetic</a></li>
+            <li><a href="#misc.">Misc.</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#aboutUs">About Us</a>
+        </li>
+        <li>
+          <a href="id/register.html">Register</a>
+        </li>
+        <li>
+          <a href="id/login.html">Login</a>
+        </li>
+      </ul>
+    </div>
+
+    <header class="home" id="home">
+      <div class="text">
+        <h1>WELCOME TO MEDICARE</h1>
+        <p>One stop solution for your healthcare.</p>
+
+        <a href="id/login.html" class="cta">Join Us</a>
+      </div>
+    </header>
+
+    <main class="content">
+      <section id="products">
+        <h2>Healthcare</h2>
+        <p>
+          Our most popular health care products, made and packaged carefully to
+          cater you needs.
+        </p>
+
+        <div class="card-container" id="healthcare">
+          <div class="card">
+            <div class="bs">
+              <h4>Best Selling!</h4>
+            </div>
+
+            <img src="img/basil_oil.jpg" alt="MediCare Basil Oil" />
+
+            <h3>MediCare Basil Oil</h3>
+            <p>
+              Basil oil is extracted from the herb Ocimum basilicum, of the
+              Lamiaceae (Labiatea family). It is also known as European, French,
+              common oe sweet basil.
+            </p>
+          </div>
+
+          <div class="card" id="cosmetic">
+            <img src="img/shampoo.jpg" alt="MediCare Spesial Shampoo" />
+            <h3>MediCare Spesial Shampoo</h3>
+            <p>
+              Get a head start every morning and experience the refreshing
+              tingle of our special shampoo. Our shampoo contains special
+              ingredients and tea tree oil to help wash impurities.
+            </p>
+          </div>
+
+          <div class="card" id="misc.">
+            <img src="img/lotion.jpg" alt="MediCare Body Lotion" />
+            <h3>MediCare Body Lotion</h3>
+            <p>
+              Containg earth-derived ingredients (thing shea butter, cocoa
+              butter, and jojoba oil) the rich concoction is formulated to
+              condition, nourish, and smooth dry skin.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="aboutUs" class="about-us">
+        <h2>About Us</h2>
+        <img src="img/icon 2.png" alt="logo Medicare" />
+
+        <p>
+          Founded in 2001, MediCare started as a small family-owned healthcare
+          store in Kemanggisan, Jakarta. As more and more people get to know
+          about MediCare, it is natural for us to expand our stores to other
+          cities and provinces. Now, we have more than 100 stores spread out in
+          almost every major cities in Indonesia, including but not limited to
+          Aceh, Medan, Palembang, Jakarta, Surabaya, Pontianak, Balikpapan and
+          Makassar. We also offers a wider variety for products from healthcare,
+          cosmetics, medicines, and many more. We have a commitment to stay true
+          to our humble origin and serving our costumers with best costumer
+          services and high quality products.
+        </p>
+
+        <h3>Contact Us</h3>
+        <div class="cs">
+          <p>Costumer Service Hotline : (+62) 081123456789</p>
+          <p>Costumer Service Email : support@medicare.id</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="socials">
+        <a href="https://www.instagram.com/m.marsell_/"
+          ><i class="icons" data-feather="instagram"></i></a
+        ><a href="https://github.com/mmarseal"
+          ><i class="icons" data-feather="github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/muhamad-marseal/"
+          ><i class="icons" data-feather="linkedin"></i
+        ></a>
+      </div>
+
+      <div class="credit">
+        <p>Copyright &copy; 2024 Muhamad Marseal. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
