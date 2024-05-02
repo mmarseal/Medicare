@@ -720,3 +720,22 @@ footer .credit p {
     padding: 10px 31%;
   }
 }
+
+@media (max-width: 450px) {
+  html {
+    font-size: 75%;
+  }
+
+  .login_container {
+    width: 26rem;
+    padding: 1rem 2rem;
+  }
+
+  #register {
+    min-height: 100vh;
+  }
+  .reg_container {
+    width: 25rem;
+    padding: 0.8rem 2rem;
+  }
+}
