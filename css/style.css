@@ -731,11 +731,49 @@ footer .credit p {
     padding: 1rem 2rem;
   }
 
+  .hamburgerList {
+    height: 40%;
+  }
+
+  .hamburgerList ul {
+    margin: 0;
+  }
+
+  .hamburgerList ul li a {
+    font-size: 1.5rem;
+  }
+
+  .card-container .card {
+    width: 250px;
+    height: 400px;
+  }
+
+  #passwordError {
+    top: 11.2rem;
+  }
+
   #register {
     min-height: 100vh;
   }
   .reg_container {
     width: 25rem;
     padding: 0.8rem 2rem;
+  }
+
+  .reg_container #emailError {
+    top: 9.9rem;
+  }
+
+  .reg_container #genderError {
+    top: 14.6rem;
+  }
+
+  .reg_container #passwordError {
+    top: 26.3rem;
+    line-height: normal;
+  }
+
+  .reg_container #confirmError {
+    top: 31.9rem;
   }
 }
